@@ -13,11 +13,7 @@ Load the starter code for each problem into CodeSignal environment and build out
 4. Enhance the test cases by adding more scenarios that you can think of.
 #### Running Your Tests
 
-Hit the play button next to each test case or type the following command into your terminal:
-
-```text
-./gradlew clean -q :test --tests "org.bloomtech.bd.codealong*"
-```
+Hit the play button next to each test case.
 
 ### Problem 1 : Safe Divide
 
