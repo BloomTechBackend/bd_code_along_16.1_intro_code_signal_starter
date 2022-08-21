@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class LetterCountTest {
 
     @Test
-    void test_letterCountSolution_returnsCorrectValue() {
+    public void test_letterCountSolution_returnsCorrectValue() {
         LetterCount letterCount = new LetterCount();
         int result = letterCount.solution("yngfhsrtugenrodiaxznsjscgsmnpvzfzirqekabzarzattewwcwqmemvtj", 'j');
         assertEquals(2, result, "Letter Count Tests Failed");

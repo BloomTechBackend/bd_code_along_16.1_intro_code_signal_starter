@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class SafeDivideTest {
 
     @Test
-    void test_safeDivideSolution_returnsCorrectValue() {
+    public void test_safeDivideSolution_returnsCorrectValue() {
         SafeDivide safeDivide = new SafeDivide();
         double result = safeDivide.solution(16, -40);
         assertEquals(-0.4, result, "Safe Divide Tests Failed");

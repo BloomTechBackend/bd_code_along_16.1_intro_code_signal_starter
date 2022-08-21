@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ArraySumTest {
 
     @Test
-    void test_arraySumSolution_returnsCorrectValue() {
+    public void test_arraySumSolution_returnsCorrectValue() {
         ArraySum arraySum = new ArraySum();
         int[] arr1 = {85, 57, 43, 71, 62};
         int result = arraySum.solution(arr1);
